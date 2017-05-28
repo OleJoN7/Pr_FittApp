@@ -1,0 +1,690 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: 12px Tahoma, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+div, menu, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, legend, label, select, input, textarea, button {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FONTS----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "RobotoR";
+    src: url('../fonts/roboto/roboto-regular/RobotoRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoL";
+    src: url('../fonts/roboto/roboto-light/RobotoLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoB";
+    src: url('../fonts/roboto/roboto-bold/RobotoBold.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+body {
+    font: 18px "RobotoL", sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+footer {
+    -webkit-flex: 1 0 auto;
+    flex: 0 0 auto;
+}
+
+.container {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #5a5a5a;
+    font: 48px "RobotoL", sans-serif;
+}
+
+h3 span {
+    color: #2ecc71;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER+Welcome Section---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.welcome-section {
+    background: #2ecc71 url('../images/welcome-bg.jpg') 50% 30% no-repeat;
+    background-size: contain;
+}
+
+.main-header {
+    overflow: hidden;
+    padding: 30px 0 70px;
+}
+
+.logo {
+    width: 133px;
+    height: 38px;
+    float: left;
+    overflow: hidden;
+}
+
+.logo h1 {
+    text-indent: -9999px;
+}
+
+.main-header .main-nav {
+    float: right;
+}
+
+.main-header .main-nav li {
+    float: left;
+}
+
+.main-nav a {
+    display: inline-block;
+    color: #fff;
+    font: 18px "RobotoR", sans-serif;
+    line-height: 30px;
+    padding: 0 25px 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: 0.25s all linear;
+}
+
+.main-nav a:hover {
+    color: #2ecc71;
+    background: #fff;
+}
+
+.popup-btn {
+    border: none;
+    color: #fff;
+    background: transparent;
+    font: 18px "RobotoR", sans-serif;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 0 25px 0;
+    transition: 0.3s all linear;
+    float: right;
+}
+
+.popup-btn:hover {
+    color: #2ecc71;
+    background: #fff;
+    cursor: pointer;
+}
+
+.template {
+    position: relative;
+    padding-top: 150px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.template:after {
+    display: block;
+    content: '';
+    background: url('../images/strawberry.png') 50% 50% no-repeat;
+    height: 160px;
+    width: 140px;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.template-description {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.template-description .app-icon {
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.template-description h2 {
+    font: 64px "RobotoR", sans-serif;
+    padding-bottom: 30px;
+}
+
+.template-description p {
+    width: 630px;
+    max-width: 100%;
+    text-align: left;
+    line-height: 32px;
+    padding-bottom: 50px;
+}
+
+.template-description .btn-list {
+    overflow: hidden;
+}
+
+.template-description .btn-list li {
+    float: left;
+    margin-right: 30px;
+    transition: 0.5s all linear;
+}
+
+.template-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn-list li a {
+    display: block;
+    transition: .25s linear;
+    width: 130px;
+    height: 46px;
+    border-radius: 10px;
+}
+
+.btn-list li:last-child a {
+    height: 44px;
+}
+
+.btn-list li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.button-logo-wrap {
+    display: none;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.hide-show-btn {
+    float: right;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.hide-show-btn .icon {
+    display: block;
+    border: 2px solid #fff;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+
+/*-----------------------------Features section----------------------*/
+.features-wrap {
+    padding: 100px 0;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.features-wrap .features-img {
+    position: relative;
+    z-index: 100;
+}
+
+.features-wrap .features-img img {
+    width: auto;
+    min-height: 100%;
+    display: block;
+}
+
+.features-list {
+    position: absolute;
+    padding: 235px;
+    top: 25%;
+    left: 8%;
+    border: 2px solid #e7e7e7;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.features-list li {
+    position: absolute;
+    z-index: 999;
+}
+
+.features-list .sound {
+    top: 0;
+    left: 70%;
+}
+
+.features-list .calendar {
+    top: 15%;
+    left: 85%;
+}
+
+.features-list .grow {
+    top: 45%;
+    left: 94%;
+}
+
+.features-list .favourite {
+    top: 72%;
+    left: 85%;
+}
+
+.features-list .interface {
+    bottom: 0;
+    left: 70%;
+}
+
+.features-list li button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: 0.5s all linear;
+}
+
+.features-list li button:hover {
+    transform: scale(1.5);
+    border: 3px solid #fff;
+    background: #2ecc71;
+    box-shadow: 0 0 40px 5px #e7e7e7;
+}
+
+.active {
+    transform: scale(1.5);
+    border: 3px solid #fff;
+    background: #2ecc71;
+    box-shadow: 0 0 40px 5px #e7e7e7;
+    border-radius: 50%;
+}
+
+.features-list li button:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.features-list li img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 3px;
+    width: 50%;
+}
+
+.features-description {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+    text-align: left;
+    width: 100%;
+}
+
+.features-description .text-block {
+    display: none;
+}
+
+.features-description .grow-block {
+    display: block;
+}
+
+.features-description p {
+    color: #5a5a5a;
+}
+
+/*---------------------Diet section---------------------------------------*/
+.diet-section {
+    background: #f9f9f9 url('../images/diet-bg.png') 50% 70% no-repeat;
+    background-size: contain;
+}
+
+.diet-section .diet-header {
+    padding: 110px 0;
+}
+
+.diet-section .diet-header h3 {
+    padding-bottom: 30px;
+}
+
+.diet-section p {
+    color: #5a5a5a;
+    padding: 0 200px;
+    line-height: 32px;
+}
+
+.diet-img {
+    width: 790px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*----------------------Meal-time-section-------------------------*/
+.time-wrap {
+    overflow: hidden;
+}
+
+.time-description {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 265px 0;
+}
+
+.meal-time-list {
+    float: right;
+    width: 50%;
+}
+
+.time-description h3 {
+    padding-bottom: 40px;
+}
+
+.time-description p {
+    color: #5a5a5a;
+    line-height: 32px;
+}
+
+.meal-time-list {
+    padding: 145px 0;
+}
+
+.meal-time-list li {
+    border: 2px solid #e8eae9;
+    margin: 30px 40px 30px 75px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 5px #e7e7e7;
+    transition: 0.3s all linear;
+}
+
+.meal-time-list li:hover {
+    transform: scale(1.1);
+}
+
+.meal-time-list .product {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 20px 70px 20px 130px;
+}
+
+.meal-time-list .meal-time {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.meal-time-list .product p {
+    padding-bottom: 10px;
+}
+
+.meal-time-list .product p:first-child {
+    font: 16px "RobotoB", sans-serif;
+}
+
+.meal-time-list .product p:last-child {
+    font: 12px "RobotoB", sans-serif;
+}
+
+.meal-time-list .product p:nth-child(odd) {
+    color: #2ecc71;
+}
+
+.meal-time-list .product p:nth-child(even) {
+    color: #5a5a5a;
+}
+
+.meal-time-list .meal-time p:nth-child(odd) {
+    color: #2ecc71;
+}
+
+.meal-time-list .meal-time p:nth-child(even) {
+    color: #5a5a5a;
+}
+
+.meal-time-list .apple {
+    background: url("../images/apple.png") 5% 50% no-repeat;
+}
+
+.meal-time-list .sandwich {
+    background: url("../images/sandwich.png") 0 50% no-repeat;
+}
+
+.meal-time-list .chicken {
+    background: url("../images/chicken.png") 0 50% no-repeat;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+footer {
+    background: #2ecc71 url('../images/footer-bg.png') 50% 100% no-repeat;
+    background-size: contain;
+}
+
+.foot-wrap {
+    padding: 115px 0 95px;
+}
+
+.foot-wrap h3 {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.foot-wrap p {
+    line-height: 32px;
+    padding: 0 180px 60px;
+}
+
+.foot-wrap .popup-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font: 18px "RobotoR", sans-serif;
+    border-radius: 20px;
+    line-height: 42px;
+    padding: 0 80px 0;
+    transition: 0.3s all linear;
+    float: none;
+}
+
+.foot-wrap .popup-btn:hover {
+    color: #2ecc71;
+    background: #fff;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------OTHER----------------------------------------*/
+
+/*------------------------PopUp-------------------------------------------*/
+
+.popup-wrap {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.popup-wrap .popup {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(51, 11, 86, 0.75);
+    width: 50%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 55%;
+    border: 2px solid #e7e7e7;
+    border-radius: 30px;
+}
+
+.popup .form-field {
+    background: rgba(46, 204, 113, 0.6);
+    margin: 20px 30px;
+    border-radius: 10px;
+}
+
+.popup .popup-name {
+    padding: 20px 0;
+}
+
+.popup .popup-name p {
+    font: 30px 'RobotoL', sans-serif;
+    color: #2ecc71;
+    line-height: 30px;
+}
+
+.form-field input {
+    line-height: 35px;
+    min-width: 90%;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 10px;
+    font: 14px 'RobotoR', sans-serif;
+}
+
+.form-field input[placeholder] {
+    padding: 10px 10px;
+}
+
+.form-field ul .register-btn {
+    padding-bottom: 10px;
+}
+
+.form-field .register-btn button {
+    color: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px 30px;
+    transition: 0.5s all linear;
+    font: 16px 'RobotoR', sans-serif;
+    cursor: pointer;
+}
+
+.form-field .register-btn button:hover {
+    background: #fff;
+    color: #2ecc71;
+    border: 1px solid transparent;
+}
+
+.popup .download-btn {
+    color: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+    background: transparent;
+    padding: 20px 80px;
+    transition: 0.5s all linear;
+    font: 16px 'RobotoR', sans-serif;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.popup .download-btn:hover {
+    background: rgba(226, 102, 45, 0.77);
+    border: 1px solid transparent;
+}
+
+.popup .close-wrap {
+    position: relative;
+}
+
+.popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 50%;
+    background: transparent;
+    padding: 5px 5px;
+    transition: 0.5s all linear;
+    font: 18px 'RobotoB', sans-serif;
+    cursor: pointer;
+}
+
+.popup .form-field {
+    display: block;
+}

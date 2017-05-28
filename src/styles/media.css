@@ -1,0 +1,568 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+
+    .welcome-section {
+        background-position: 50% 15%;
+    }
+
+    .template {
+        padding-top: 70px;
+    }
+
+    /*----------------------------------------------------------*/
+    .diet-section {
+        background-position: 50% 20%;
+    }
+
+    .diet-section .diet-header {
+        padding: 90px 0;
+    }
+
+    /*---------------------------------------------------------------*/
+    .meal-time-list .product {
+        padding: 20px 10px 20px 130px;
+    }
+
+    .time-description h3 {
+        font-size: 47px;
+    }
+
+    .meal-time-list .product p:nth-child(even) {
+        font-size: 16px;
+    }
+
+    .meal-time-list .meal-time {
+        padding-right: 10px;
+    }
+
+    /*---------------------------------------------------------------------*/
+    .foot-wrap {
+        padding: 60px 0 60px;
+    }
+
+    .foot-wrap h3 {
+        padding-bottom: 20px;
+    }
+
+    .foot-wrap p {
+        padding: 0 150px 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    .main-header {
+        padding: 30px 0;
+    }
+
+    .main-nav a {
+        font-size: 16px;
+        padding: 0 20px 0;
+    }
+
+    .main-nav .popup-btn {
+        font-size: 16px;
+        padding: 0 20px 0;
+    }
+
+    .template {
+        padding: 50px 25px 0;
+    }
+
+    .template-description .app-icon {
+        margin-bottom: 30px;
+    }
+
+    .template-description h2 {
+        font-size: 48px;
+        padding-bottom: 15px;
+    }
+
+    .template-description p {
+        width: 480px;
+        line-height: 25px;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .template:after {
+        bottom: -15%;
+        transform: translateX(-30%);
+
+    }
+
+    /*-----------------------------------------------*/
+    .features-wrap .features-img img {
+        width: 250px;
+    }
+
+    .features-list {
+        padding: 150px;
+        top: 30%;
+    }
+
+    .features-list li button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .features-list li img {
+        width: 50%;
+        height: auto;
+    }
+
+    .features-description {
+        padding-left: 160px;
+    }
+
+    .features-description h3 {
+        font-size: 31px;
+    }
+
+    .features-description p {
+        font-size: 15px;
+    }
+
+    /*-----------------------------------------------*/
+    .diet-section .diet-header {
+        padding: 60px 0;
+    }
+
+    .diet-section .diet-header h3 {
+        font-size: 40px;
+    }
+
+    .diet-section {
+        background-position: 50% 20%;
+    }
+
+    .diet-section p {
+        padding: 0 80px;
+        line-height: 25px;
+    }
+
+    .diet-img {
+        padding: 0 50px;
+    }
+
+    /*--------------------------------------------------------*/
+    .time-description {
+        padding: 150px 0;
+    }
+
+    .time-description h3 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .time-description p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .meal-time-list {
+        padding: 70px 0;
+    }
+
+    .meal-time-list li {
+        margin: 15px 35px 15px 20px;
+    }
+
+    .meal-time-list .meal-time {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .meal-time-list .apple {
+        background-position: 10% 50%;
+    }
+
+    .meal-time-list .product {
+        padding: 10px 35px 10px 119px;
+    }
+
+    .meal-time-list .product p:first-child {
+        font-size: 14px;
+    }
+
+    .meal-time-list .product p:nth-child(even) {
+        font-size: 12px;
+    }
+
+    /*------------------------------------------------*/
+    .foot-wrap {
+        padding: 60px 0 60px;
+    }
+
+    .foot-wrap h3 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .foot-wrap p {
+        padding: 0 120px 30px;
+        font-size: 16px;
+    }
+
+    .foot-wrap .popup-btn {
+        font-size: 16px;
+        padding: 0 60px 0;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: auto;
+    }
+
+    .welcome-section {
+        background-position: 50%;
+    }
+
+    .main-header {
+        padding: 30px 0 15px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .button-logo-wrap {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .main-header .main-nav {
+        float: none;
+        margin-top: 0;
+    }
+
+    .main-header .main-nav li {
+        width: 100%;
+        float: none;
+    }
+
+    .main-header .popup-btn {
+        positioN: absolute;
+        top: 10%;
+        right: 0;
+        line-height: 20px;
+        padding: 0 10px 0;
+    }
+
+    .main-nav a {
+        font-size: 14px;
+        margin-left: 5px;
+        line-height: 29px;
+        padding: 0 20px 0;
+    }
+
+    .main-nav .popup-btn {
+        font-size: 16px;
+        padding: 0 20px 0;
+    }
+
+    .template {
+        padding: 20px 20px 0;
+        flex-direction: column;
+    }
+
+    .template-description {
+        align-items: center;
+    }
+
+    .template-description h2 {
+        font-size: 28px;
+    }
+
+    .template-description p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+
+    .template-description .app-icon {
+        margin-bottom: 30px;
+        width: 100px;
+    }
+
+    .template-description .btn-list {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .template-description .btn-list li {
+        float: none;
+        margin: 0 15px;
+    }
+
+    .template:after {
+        display: none;
+    }
+
+    .template-img {
+        width: 170px;
+        margin: 0 auto;
+    }
+
+    /*---------------------------------------------------------------------*/
+    .features-wrap {
+        padding: 40px 0;
+    }
+
+    .features-wrap .features-img img {
+        width: 130px;
+        padding-left: 15px;
+        margin: 0 auto;
+    }
+
+    .features-wrap .features-img {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .features-list {
+        border: none;
+        position: static;
+        padding: 0;
+    }
+
+    .features-list li button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .features-list li img {
+        height: auto;
+    }
+
+    .features-description {
+        padding: 0;
+    }
+
+    .features-description h3 {
+        font-size: 25px;
+        padding: 0 10px;
+    }
+
+    .features-description p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .features-list .sound {
+        top: 8%;
+        left: 50%;
+    }
+
+    .features-list .calendar {
+        top: 8%;
+        left: 70%;
+    }
+
+    .features-list .interface {
+        bottom: 9%;
+        left: 43%;
+    }
+
+    .features-list .favourite {
+        top: 85%;
+        left: 60%;
+    }
+
+    .features-list .grow {
+        top: 79%;
+        left: 76%;
+    }
+
+    .features-list li button:hover {
+        transform: scale(1.2);
+    }
+
+    /*---------------------------------------------------------*/
+    .diet-section .diet-header {
+        padding: 50px 0;
+    }
+
+    .diet-section .diet-header h3 {
+        font-size: 25px;
+    }
+
+    .diet-section {
+        background-position: 50% 20%;
+    }
+
+    .diet-section p {
+        padding: 0 30px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .diet-img {
+        padding: 0 20px;
+    }
+
+    /*-----------------------------------------------*/
+    .time-description {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .time-description, .meal-time-list {
+        float: none;
+        width: auto;
+    }
+
+    .time-description h3 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .time-description p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 15px;
+    }
+
+    .meal-time-list {
+        padding: 20px 0 50px;
+    }
+
+    .meal-time-list li {
+        margin: 15px 20px;
+    }
+
+    .meal-time-list .meal-time {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+
+    .meal-time-list .apple {
+        background-position: 10% 50%;
+    }
+
+    .meal-time-list .product {
+        padding: 10px 15px 10px 120px;
+    }
+
+    .meal-time-list .product p:first-child {
+        font-size: 12px;
+    }
+
+    .meal-time-list .product p:nth-child(even) {
+        font-size: 10px;
+    }
+
+    /*--------------------------------------------------*/
+    .foot-wrap {
+        padding: 40px 0 40px;
+    }
+
+    .foot-wrap h3 {
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .foot-wrap p {
+        padding: 0 20px 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .foot-wrap .popup-btn {
+        font-size: 14px;
+        padding: 0 30px 0;
+        line-height: 25px;
+    }
+
+    /*--------------Popup------------------------------------*/
+    .popup .popup-name p {
+        font-size: 25px;
+        color: #2ecc71;
+        line-height: 25px;
+    }
+
+    .popup-wrap .popup {
+        min-height: 15%;
+    }
+
+    .popup .download-btn {
+        padding: 10px 20px;
+    }
+
+    .popup .popup-name p {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .popup .close-btn {
+        top: -20px;
+        right: -15px;
+    }
+
+    .popup .form-field {
+        display: none;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+
+    .meal-time-list {
+        padding: 40px 0;
+    }
+
+    .meal-time-list li {
+        margin: 15px 80px;
+    }
+
+    .meal-time-list .meal-time {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .meal-time-list .apple {
+        background-position: 10% 50%;
+    }
+
+    .meal-time-list .product {
+        padding: 10px 30px 10px 120px;
+    }
+
+    .meal-time-list .product p:first-child {
+        font-size: 14px;
+    }
+
+    .meal-time-list .product p:nth-child(even) {
+        font-size: 12px;
+    }
+
+    /*-----------------------------------------------*/
+    .popup .popup-name p {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 10px;
+    }
+}
+@media (max-height:420px) {
+    .main-header .popup-btn {
+        top: 20%;
+    }
+}
